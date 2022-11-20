@@ -1,0 +1,22 @@
+.home-section-two-card-img-div {
+  height: 50vh;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+
+  .home-section-two-card-img {
+    height: 50vh;
+    width: 23vw;
+    border-radius: 20px;
+    position: absolute;
+  }
+
+  div {
+    margin-top: 20rem;
+    position: relative;
+    color: $themeColor;
+  }
+}

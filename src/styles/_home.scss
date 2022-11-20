@@ -1,0 +1,226 @@
+.home-div {
+  height: 500vh;
+  background-color: rgb(235, 239, 239);
+}
+
+.home-section-one {
+  height: 75vh;
+  #homeimg-one {
+    width: 100%;
+    height: 75vh;
+    position: absolute;
+  }
+
+  div.home-section-one-p-div {
+    position: relative;
+    top: 30vh;
+    left: 10vw;
+    width: 40vw;
+
+    p,
+    h1,
+    h2 {
+      margin: 0rem 1rem 0rem 0rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      span {
+        color: $themeOrange;
+      }
+    }
+
+    div {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+
+      button {
+        width: 9vw;
+        height: 5vh;
+        font-size: 1.1rem;
+        border: 0;
+        margin: 1rem;
+        margin-left: 0;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+
+      .home-section-one-button {
+        background-color: $themeOrange;
+        color: $themeWhite;
+
+        &:hover {
+          background-color: rgb(114, 111, 111);
+        }
+      }
+
+      .home-section-one-buttontwo {
+        background-color: $themeColor;
+        border: $themeOrange 1px solid;
+
+        &:hover {
+          background-color: $themeWhite;
+        }
+      }
+    }
+  }
+}
+
+.home-section-two {
+  background-color: $themeWhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  .home-section-two-font-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 2rem 0rem 1rem 0rem;
+
+    h3 {
+      font-size: 2rem;
+      color: $themeOrange;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .home-section-two-card-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 90vw;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+}
+
+.home-section-three {
+  background-color: $themeColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+  div.home-section-three-img-div {
+    img {
+      width: 30vw;
+      border-radius: 20px;
+      margin: 0rem 2rem;
+    }
+  }
+
+  .home-section-three-word-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    margin: 0rem 2rem;
+
+    .home-section-three-p-div {
+      width: 35vw;
+    }
+
+    h3 {
+      font-size: 2rem;
+      color: $themeOrange;
+    }
+
+    p {
+      font-size: 1.2rem;
+    }
+  }
+
+  .home-section-three-card-div {
+    height: 60vh;
+  }
+}
+
+.home-section-four {
+  background-color: $themeWhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    border-radius: 20px;
+  }
+
+  .home-section-four-img-div {
+    display: flex;
+    margin: 3rem 1rem;
+
+    div {
+      margin: 0rem 1rem;
+    }
+
+    .home-section-four-img-two {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  .home-section-four-word-div {
+    width: 30vw;
+
+    h3 {
+      font-size: 2rem;
+      color: $themeOrange;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+.home-section-five {
+  background-color: $themeColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .home-section-five-word-div {
+    width: 26vw;
+
+    h3 {
+      font-size: 2rem;
+      color: $themeOrange;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .home-section-five-img-div {
+    margin: 3rem 0rem;
+  }
+
+  .homeimg12 {
+    border-radius: 20px;
+  }
+
+  .homeimg13 {
+    border-radius: 20px 0px 0px 20px;
+  }
+
+  .homeimg12,
+  .homeimg13 {
+    margin: 0rem 1rem;
+  }
+}

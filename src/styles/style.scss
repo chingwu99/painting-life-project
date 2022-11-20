@@ -1,0 +1,26 @@
+$themeColor: rgb(243, 230, 206);
+$themeOrange: rgb(184, 113, 51);
+$themeWhite: rgb(245, 245, 245);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oleo Script", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@import "./layout";
+@import "./nav";
+@import "./footer";
+@import "./home";
+@import "./homeSectionTwoCard";
+@import "./homeSectionThreeCard";

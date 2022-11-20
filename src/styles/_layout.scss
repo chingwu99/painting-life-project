@@ -1,0 +1,15 @@
+.social-logo-div {
+  font-size: 3rem;
+  position: fixed;
+  z-index: 5;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  bottom: 50%;
+
+  .social-logo {
+    margin: 3px;
+    cursor: pointer;
+    color: $themeOrange;
+  }
+}
