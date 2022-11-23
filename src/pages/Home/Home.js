@@ -1,9 +1,11 @@
 import React from "react";
 import Homeimg1 from "../../image/homeimage/sectionone/homeimg1.png";
 import HomeSectionTwoCard from "./components/HomeSectionTwoCard";
+import HomeSectionThreeCard from "./components/HomeSectionThreeCard";
+import HomeSectionSixCard from "./components/HomeSectionSixCard";
+import HomeSectionSevenCard from "./components/HomeSectionSevenCard";
 import homedata from "../../data/homedata";
 import Homeimg5 from "../../image/homeimage/sectionthree/homeimg5.png";
-import HomeSectionThreeCard from "./components/HomeSectionThreeCard";
 import Homeimg9 from "../../image/homeimage/sectionfour/homeimg9.png";
 import Homeimg10 from "../../image/homeimage/sectionfour/homeimg10.png";
 import Homeimg11 from "../../image/homeimage/sectionfour/homeimg11.png";
@@ -13,6 +15,9 @@ import Homeimg13 from "../../image/homeimage/sectionfive/homeimg13.png";
 const Home = () => {
   const { homeSectionTwoCardList } = homedata;
   const { homeSectionThreeCardList } = homedata;
+  const { homeSectionSixCardList } = homedata;
+  const { homeSectionSevenCardList } = homedata;
+
   return (
     <div className="home-div">
       <section className="home-section-one">
@@ -66,6 +71,7 @@ const Home = () => {
                 image={item.image}
                 word={item.word}
                 teacher={item.teacher}
+                experience={item.experience}
               />
             ))}
           </div>
@@ -108,6 +114,40 @@ const Home = () => {
             <img src={Homeimg12} alt="Homeimg12" className="homeimg12" />
             <img src={Homeimg13} alt="Homeimg13" className="homeimg13" />
           </div>
+        </div>
+      </section>
+
+      <section className="home-section-six">
+        <div className="home-section-six-font-div">
+          <h3>方案選擇</h3>
+          <p>繪畫生活可以帶給你...</p>
+        </div>
+        <div className="home-section-six-card-div">
+          {homeSectionSixCardList.map((item) => (
+            <HomeSectionSixCard
+              key={item.image}
+              image={item.image}
+              word={item.word}
+              select={item.select}
+              price={item.price}
+            />
+          ))}
+        </div>
+      </section>
+
+      <section className="home-section-seven">
+        <div className="home-section-seven-font-div">
+          <h3>聽聽他們怎麼說</h3>
+        </div>
+        <div className="home-section-seven-card-div">
+          {homeSectionSevenCardList.map((item) => (
+            <HomeSectionSevenCard
+              key={item.image}
+              image={item.image}
+              infor={item.infor}
+              comment={item.comment}
+            />
+          ))}
         </div>
       </section>
     </div>

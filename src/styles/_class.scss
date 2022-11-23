@@ -1,0 +1,21 @@
+.class-div {
+  background-color: rgb(246, 238, 238);
+  height: 60vh;
+}
+
+.class-section-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .class-section-one-limited-div {
+    display: flex;
+    width: 40vw;
+    background-color: aquamarine;
+
+    .class-section-one-limited-teacher {
+      display: flex;
+    }
+  }
+}

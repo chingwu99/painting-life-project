@@ -24,5 +24,19 @@
     p {
       width: 25vw;
     }
+
+    .home-section-three-card-experience {
+      display: none;
+    }
+  }
+
+  &:hover {
+    position: relative;
+    right: 150px;
+    height: 20vh;
+
+    .home-section-three-card-experience {
+      display: block;
+    }
   }
 }

@@ -1,0 +1,26 @@
+.home-section-seven-card {
+  background-color: $themeWhite;
+  width: 25vw;
+  height: 12vh;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+
+  img {
+    width: 5vw;
+    border-radius: 50%;
+    margin: 0rem 2rem;
+  }
+
+  .home-section-seven-card-p-div {
+    p {
+      font-size: 1.1rem;
+    }
+
+    .star-icon {
+      color: $themeOrange;
+    }
+  }
+}

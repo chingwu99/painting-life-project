@@ -1,6 +1,6 @@
 import React from "react";
 
-const HomeSectionThreeCard = ({ image, word, teacher }) => {
+const HomeSectionThreeCard = ({ image, word, teacher, experience }) => {
   return (
     <div className="home-section-three-card">
       <div>
@@ -9,6 +9,7 @@ const HomeSectionThreeCard = ({ image, word, teacher }) => {
       <div className="home-section-three-card-p-div">
         <h4>{teacher}</h4>
         <p>{word}</p>
+        <p className="home-section-three-card-experience">{experience}</p>
       </div>
     </div>
   );

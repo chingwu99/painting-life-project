@@ -163,11 +163,6 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   cursor: pointer;
 }
 
-.home-div {
-  height: 500vh;
-  background-color: rgb(235, 239, 239);
-}
-
 .home-section-one {
   height: 75vh;
 }
@@ -239,7 +234,7 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   justify-content: center;
   align-items: center;
   height: 10vh;
-  margin: 2rem 0rem 1rem 0rem;
+  margin: 2rem 0rem;
 }
 .home-section-two .home-section-two-font-div h3 {
   font-size: 2rem;
@@ -355,17 +350,72 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   margin: 0rem 1rem;
 }
 
+.home-section-six {
+  background-color: rgb(245, 245, 245);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-section-six .home-section-six-font-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 2rem 0rem 1rem 0rem;
+}
+.home-section-six .home-section-six-font-div h3 {
+  font-size: 2rem;
+  color: rgb(184, 113, 51);
+}
+.home-section-six .home-section-six-font-div p {
+  font-size: 1.2rem;
+}
+.home-section-six .home-section-six-card-div {
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.home-section-seven {
+  background-color: rgb(243, 230, 206);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-section-seven .home-section-seven-font-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  margin: 1rem 0rem 1rem 0rem;
+}
+.home-section-seven .home-section-seven-font-div h3 {
+  font-size: 2rem;
+  color: rgb(184, 113, 51);
+}
+.home-section-seven .home-section-seven-card-div {
+  width: 90vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
 .home-section-two-card-img-div {
   height: 50vh;
   width: 23vw;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 0.5rem;
 }
 .home-section-two-card-img-div .home-section-two-card-img {
-  height: 50vh;
   width: 23vw;
   border-radius: 20px;
   position: absolute;
@@ -399,4 +449,106 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
 }
 .home-section-three-card .home-section-three-card-p-div p {
   width: 25vw;
+}
+.home-section-three-card .home-section-three-card-p-div .home-section-three-card-experience {
+  display: none;
+}
+.home-section-three-card:hover {
+  position: relative;
+  right: 150px;
+  height: 20vh;
+}
+.home-section-three-card:hover .home-section-three-card-experience {
+  display: block;
+}
+
+.home-section-six-card {
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  border-radius: 15px;
+  border: 3px solid rgb(184, 113, 51);
+}
+.home-section-six-card .home-section-six-card-img-div img {
+  max-width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.home-section-six-card .home-section-six-card-p-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-section-six-card .home-section-six-card-p-div h4 {
+  font-size: 1.5rem;
+  color: rgb(184, 113, 51);
+}
+.home-section-six-card .home-section-six-card-p-div h5 {
+  font-size: 1rem;
+  color: rgb(184, 113, 51);
+  margin: 0.5rem;
+}
+.home-section-six-card .home-section-six-card-p-div p {
+  font-size: 1rem;
+  width: 20vw;
+}
+.home-section-six-card button {
+  width: 20vw;
+  height: 4.5vh;
+  margin: 1rem;
+  border: none;
+  background-color: rgb(184, 113, 51);
+  color: rgb(245, 245, 245);
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.home-section-six-card button:hover {
+  background-color: rgb(114, 111, 111);
+}
+
+.home-section-seven-card {
+  background-color: rgb(245, 245, 245);
+  width: 25vw;
+  height: 12vh;
+  margin: 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 10px;
+}
+.home-section-seven-card img {
+  width: 5vw;
+  border-radius: 50%;
+  margin: 0rem 2rem;
+}
+.home-section-seven-card .home-section-seven-card-p-div p {
+  font-size: 1.1rem;
+}
+.home-section-seven-card .home-section-seven-card-p-div .star-icon {
+  color: rgb(184, 113, 51);
+}
+
+.class-div {
+  background-color: rgb(246, 238, 238);
+  height: 60vh;
+}
+
+.class-section-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.class-section-one .class-section-one-limited-div {
+  display: flex;
+  width: 40vw;
+  background-color: aquamarine;
+}
+.class-section-one .class-section-one-limited-div .class-section-one-limited-teacher {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
