@@ -1,16 +1,16 @@
 import React from "react";
 import Homeimg1 from "../../image/homeimage/sectionone/homeimg1.png";
 import HomeSectionTwoCard from "./components/HomeSectionTwoCard";
-import HomeSectionThreeCard from "./components/HomeSectionThreeCard";
-import HomeSectionSixCard from "./components/HomeSectionSixCard";
-import HomeSectionSevenCard from "./components/HomeSectionSevenCard";
 import homedata from "../../data/homedata";
 import Homeimg5 from "../../image/homeimage/sectionthree/homeimg5.png";
+import HomeSectionThreeCard from "./components/HomeSectionThreeCard";
 import Homeimg9 from "../../image/homeimage/sectionfour/homeimg9.png";
 import Homeimg10 from "../../image/homeimage/sectionfour/homeimg10.png";
 import Homeimg11 from "../../image/homeimage/sectionfour/homeimg11.png";
 import Homeimg12 from "../../image/homeimage/sectionfive/homeimg12.png";
 import Homeimg13 from "../../image/homeimage/sectionfive/homeimg13.png";
+import HomeSectionSixCard from "./components/HomeSectionSixCard";
+import HomeSectionSevenCard from "./components/HomeSectionSevenCard";
 
 const Home = () => {
   const { homeSectionTwoCardList } = homedata;

@@ -1,0 +1,58 @@
+.class-section-two-img-card {
+  background-color: aquamarine;
+  display: flex;
+  height: 25vh;
+
+  img {
+    border-radius: 10px;
+  }
+
+  .class-section-two-img-div-one {
+    background-color: forestgreen;
+    width: 15vw;
+    margin: 0.5rem;
+
+    .class-section-two-img1 {
+      position: absolute;
+      width: 15vw;
+    }
+    .class-section-two-time-one {
+      position: relative;
+      background-color: $themeOrange;
+      width: 10vw;
+      border-radius: 10px;
+      top: -10px;
+      left: 20px;
+    }
+
+    .class-section-two-p-div-one {
+      position: relative;
+      bottom: -60px;
+    }
+  }
+
+  .class-section-two-img-div-two {
+    background-color: blueviolet;
+    width: 30vw;
+    margin: 0.5rem;
+
+    .class-section-two-img2 {
+      position: absolute;
+      width: 30vw;
+    }
+
+    .class-section-two-time-two {
+      position: relative;
+      background-color: $themeOrange;
+      width: 10vw;
+      border-radius: 10px;
+      top: -10px;
+      left: 20px;
+    }
+
+    .class-section-two-p-div-two {
+      position: relative;
+      bottom: -60px;
+    }
+  }
+}
