@@ -1,8 +1,3 @@
-.class-div {
-  background-color: rgb(246, 238, 238);
-  height: 400vh;
-}
-
 .class-section-one {
   display: flex;
   flex-direction: column;
@@ -83,9 +78,6 @@
 }
 
 .class-section-two {
-  background-color: khaki;
-  height: 200vh;
-
   .class-section-two-select-div {
     background-color: $themeOrange;
     height: 15vh;
@@ -128,7 +120,7 @@
 
   .class-section-two-main-div {
     background-color: $themeColor;
-    height: 130vh;
+    height: 115vh;
     display: flex;
     justify-content: center;
 
@@ -142,10 +134,44 @@
       justify-content: center;
       margin: 3rem 0rem;
 
-      p {
+      .class-section-two-main-div-box-word-div {
+        margin: 0rem 1rem;
         width: 30vw;
-        margin: 3rem 0rem;
+
+        h4 {
+          font-size: 2rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+          margin: 1rem 0rem;
+        }
       }
     }
+  }
+}
+
+.class-section-three {
+  background-color: $themeWhite;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  .class-section-three-title {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: $themeOrange;
+    margin-bottom: 5rem;
+  }
+
+  .class-section-three-teacher-card-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

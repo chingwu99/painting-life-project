@@ -9,8 +9,12 @@ import Classimg6 from "../../image/classimage/sectiontwo/classimg6.png";
 import Classimg7 from "../../image/classimage/sectiontwo/classimg7.png";
 import Classimg8 from "../../image/classimage/sectiontwo/classimg8.png";
 import Classimg9 from "../../image/classimage/sectiontwo/classimg9.png";
+import ClassSectionTwoImgCardTwo from "./components/ClassSectionTwoImgCardTwo";
+import TeacherCard from "./components/TeacherCard";
+import teacherdata from "../../data/classdata";
 
 const Class = () => {
+  const { teacherList } = teacherdata;
   return (
     <div className="class-div">
       <section className="class-section-one">
@@ -67,21 +71,19 @@ const Class = () => {
           <div className="class-section-two-main-div-box">
             <div>
               <ClassSectionTwoImgCard image1={Classimg2} image2={Classimg3} />
-              <ClassSectionTwoImgCard
+              <ClassSectionTwoImgCardTwo
                 image1={Classimg4}
                 image2={Classimg5}
-                className="ClassSectionTwoImgCard-reverse"
               />
               <ClassSectionTwoImgCard image1={Classimg6} image2={Classimg7} />
-              <ClassSectionTwoImgCard
+              <ClassSectionTwoImgCardTwo
                 image1={Classimg8}
                 image2={Classimg9}
-                className="ClassSectionTwoImgCard-reverse"
               />
             </div>
-            <div>
+            <div className="class-section-two-main-div-box-word-div">
+              <h4>DOYOGA 上課須知：</h4>
               <p>
-                DOYOGA 上課須知： <br />
                 請攜帶適當的瑜珈墊和一條長毛巾配合課程使用。
                 運動中請穿著有彈性、吸汗、透氣為原則的衣物，盡量穿著較貼身的運動衣，以便教練指導與自我矯正。
                 運動中切記補充適當的水分、保持腹式呼吸，以鼻吸氣，以口呼氣為原則。
@@ -91,6 +93,24 @@ const Class = () => {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="class-section-three">
+        <div className="class-section-three-title">
+          <h3>師資介紹</h3>
+        </div>
+        <div className="class-section-three-teacher-card-div">
+          {teacherList.map((item) => (
+            <TeacherCard
+              key={item.name}
+              image={item.image}
+              experience={item.experience}
+              p={item.p}
+              name={item.name}
+              teacherClass={item.classname}
+            />
+          ))}
         </div>
       </section>
     </div>

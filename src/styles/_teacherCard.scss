@@ -1,0 +1,87 @@
+.carol-tang-teacher {
+  background-color: $themeColor;
+  width: 25vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  img {
+    border-radius: 50%;
+    width: 10vw;
+    border: 2px solid $themeOrange;
+    position: relative;
+    top: -8vh;
+  }
+
+  .teacher-word {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 1rem;
+  }
+}
+
+.kanae-teacher {
+  background-color: $themeColor;
+  width: 25vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0rem 2rem;
+
+  img {
+    border-radius: 50%;
+    width: 10vw;
+    border: 2px solid $themeOrange;
+    position: relative;
+    top: -8vh;
+  }
+
+  .teacher-word {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 1rem;
+  }
+}
+
+.kuzuha-teacher {
+  background-color: $themeColor;
+  width: 25vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  img {
+    border-radius: 50%;
+    width: 10vw;
+    border: 2px solid $themeOrange;
+    position: relative;
+    top: -8vh;
+  }
+
+  .teacher-word {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50vh;
+    margin-bottom: 1rem;
+  }
+}

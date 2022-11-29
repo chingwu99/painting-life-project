@@ -533,11 +533,6 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   color: rgb(184, 113, 51);
 }
 
-.class-div {
-  background-color: rgb(246, 238, 238);
-  height: 400vh;
-}
-
 .class-section-one {
   display: flex;
   flex-direction: column;
@@ -606,10 +601,6 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   color: black;
 }
 
-.class-section-two {
-  background-color: khaki;
-  height: 200vh;
-}
 .class-section-two .class-section-two-select-div {
   background-color: rgb(184, 113, 51);
   height: 15vh;
@@ -647,7 +638,7 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
 }
 .class-section-two .class-section-two-main-div {
   background-color: rgb(243, 230, 206);
-  height: 130vh;
+  height: 115vh;
   display: flex;
   justify-content: center;
 }
@@ -660,13 +651,42 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   justify-content: center;
   margin: 3rem 0rem;
 }
-.class-section-two .class-section-two-main-div .class-section-two-main-div-box p {
+.class-section-two .class-section-two-main-div .class-section-two-main-div-box .class-section-two-main-div-box-word-div {
+  margin: 0rem 1rem;
   width: 30vw;
-  margin: 3rem 0rem;
+}
+.class-section-two .class-section-two-main-div .class-section-two-main-div-box .class-section-two-main-div-box-word-div h4 {
+  font-size: 2rem;
+}
+.class-section-two .class-section-two-main-div .class-section-two-main-div-box .class-section-two-main-div-box-word-div p {
+  font-size: 1.2rem;
+  margin: 1rem 0rem;
+}
+
+.class-section-three {
+  background-color: rgb(245, 245, 245);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.class-section-three .class-section-three-title {
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: rgb(184, 113, 51);
+  margin-bottom: 5rem;
+}
+.class-section-three .class-section-three-teacher-card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .class-section-two-img-card {
-  background-color: aquamarine;
   display: flex;
   height: 25vh;
 }
@@ -674,8 +694,8 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   border-radius: 10px;
 }
 .class-section-two-img-card .class-section-two-img-div-one {
-  background-color: forestgreen;
   width: 15vw;
+  height: 15vh;
   margin: 0.5rem;
 }
 .class-section-two-img-card .class-section-two-img-div-one .class-section-two-img1 {
@@ -685,18 +705,25 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
 .class-section-two-img-card .class-section-two-img-div-one .class-section-two-time-one {
   position: relative;
   background-color: rgb(184, 113, 51);
-  width: 10vw;
+  width: 5vw;
   border-radius: 10px;
   top: -10px;
   left: 20px;
+  text-align: center;
+  color: rgb(245, 245, 245);
 }
 .class-section-two-img-card .class-section-two-img-div-one .class-section-two-p-div-one {
   position: relative;
-  bottom: -60px;
+  width: 10vw;
+  border-radius: 10px;
+  background-color: rgba(243, 230, 206, 0.5);
+}
+.class-section-two-img-card .class-section-two-img-div-one .class-section-two-p-div-one h5 {
+  font-size: 2rem;
 }
 .class-section-two-img-card .class-section-two-img-div-two {
-  background-color: blueviolet;
   width: 30vw;
+  height: 15vh;
   margin: 0.5rem;
 }
 .class-section-two-img-card .class-section-two-img-div-two .class-section-two-img2 {
@@ -706,12 +733,101 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
 .class-section-two-img-card .class-section-two-img-div-two .class-section-two-time-two {
   position: relative;
   background-color: rgb(184, 113, 51);
-  width: 10vw;
+  width: 5vw;
   border-radius: 10px;
   top: -10px;
   left: 20px;
+  text-align: center;
+  color: rgb(245, 245, 245);
 }
 .class-section-two-img-card .class-section-two-img-div-two .class-section-two-p-div-two {
   position: relative;
-  bottom: -60px;
+  background-color: rgba(243, 230, 206, 0.5);
+  width: 10vw;
+  border-radius: 10px;
+}
+.class-section-two-img-card .class-section-two-img-div-two .class-section-two-p-div-two h5 {
+  font-size: 2rem;
+}
+
+.carol-tang-teacher {
+  background-color: rgb(243, 230, 206);
+  width: 25vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.carol-tang-teacher img {
+  border-radius: 50%;
+  width: 10vw;
+  border: 2px solid rgb(184, 113, 51);
+  position: relative;
+  top: -8vh;
+}
+.carol-tang-teacher .teacher-word {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 1rem;
+}
+
+.kanae-teacher {
+  background-color: rgb(243, 230, 206);
+  width: 25vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 0rem 2rem;
+}
+.kanae-teacher img {
+  border-radius: 50%;
+  width: 10vw;
+  border: 2px solid rgb(184, 113, 51);
+  position: relative;
+  top: -8vh;
+}
+.kanae-teacher .teacher-word {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 1rem;
+}
+
+.kuzuha-teacher {
+  background-color: rgb(243, 230, 206);
+  width: 25vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.kuzuha-teacher img {
+  border-radius: 50%;
+  width: 10vw;
+  border: 2px solid rgb(184, 113, 51);
+  position: relative;
+  top: -8vh;
+}
+.kuzuha-teacher .teacher-word {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */

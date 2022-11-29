@@ -1,5 +1,5 @@
 .class-section-two-img-card {
-  background-color: aquamarine;
+  //background-color: aquamarine;
   display: flex;
   height: 25vh;
 
@@ -8,8 +8,9 @@
   }
 
   .class-section-two-img-div-one {
-    background-color: forestgreen;
+    //background-color: forestgreen;
     width: 15vw;
+    height: 15vh;
     margin: 0.5rem;
 
     .class-section-two-img1 {
@@ -19,21 +20,31 @@
     .class-section-two-time-one {
       position: relative;
       background-color: $themeOrange;
-      width: 10vw;
+      width: 5vw;
       border-radius: 10px;
       top: -10px;
       left: 20px;
+      text-align: center;
+      color: $themeWhite;
     }
 
     .class-section-two-p-div-one {
       position: relative;
-      bottom: -60px;
+      //background-color: brown;
+      width: 10vw;
+      border-radius: 10px;
+      background-color: rgb(243, 230, 206, 0.5);
+
+      h5 {
+        font-size: 2rem;
+      }
     }
   }
 
   .class-section-two-img-div-two {
-    background-color: blueviolet;
+    //background-color: blueviolet;
     width: 30vw;
+    height: 15vh;
     margin: 0.5rem;
 
     .class-section-two-img2 {
@@ -44,15 +55,23 @@
     .class-section-two-time-two {
       position: relative;
       background-color: $themeOrange;
-      width: 10vw;
+      width: 5vw;
       border-radius: 10px;
       top: -10px;
       left: 20px;
+      text-align: center;
+      color: $themeWhite;
     }
 
     .class-section-two-p-div-two {
       position: relative;
-      bottom: -60px;
+      background-color: rgb(243, 230, 206, 0.5);
+      width: 10vw;
+      border-radius: 10px;
+
+      h5 {
+        font-size: 2rem;
+      }
     }
   }
 }
