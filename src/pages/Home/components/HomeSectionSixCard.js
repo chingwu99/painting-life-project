@@ -1,8 +1,19 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HomeSectionSixCard = ({ price, image, word, select }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="home-section-six-card">
+    <div
+      className="home-section-six-card"
+      data-aos="fade-up"
+      data-aos-duration="3000"
+    >
       <div className="home-section-six-card-img-div">
         <img src={image} alt="" />
       </div>

@@ -30,13 +30,16 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/">首頁</Link>
+              </li>
+              <li>
                 <Link to="/class">課程介紹</Link>
               </li>
               <li>
                 <Link to="/classroom">繪畫空間</Link>
               </li>
-              <li>
-                <Link to="/curriculum">當月課表</Link>
+              <li className="footer-section-div-two-coperight">
+                <p>© 2022. All Rights Reserved.</p>
               </li>
             </ul>
           </div>

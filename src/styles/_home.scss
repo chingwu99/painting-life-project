@@ -1,7 +1,9 @@
 .home-section-one {
   height: 75vh;
+
   #homeimg-one {
     width: 100%;
+    object-fit: cover;
     height: 75vh;
     position: absolute;
   }
@@ -10,7 +12,7 @@
     position: relative;
     top: 30vh;
     left: 10vw;
-    width: 40vw;
+    max-width: 70vw;
 
     p,
     h1,
@@ -34,7 +36,6 @@
       align-items: center;
 
       button {
-        width: 9vw;
         height: 5vh;
         font-size: 1.1rem;
         border: 0;
@@ -69,7 +70,6 @@
   background-color: $themeWhite;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
 
   .home-section-two-font-div {
@@ -77,7 +77,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10vh;
     margin: 2rem 0rem;
 
     h3 {
@@ -92,10 +91,9 @@
 
   .home-section-two-card-div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 50vh;
-    width: 90vw;
     margin: 0rem 0rem 3rem 0rem;
   }
 }
@@ -103,15 +101,15 @@
 .home-section-three {
   background-color: $themeColor;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 90vh;
 
   div.home-section-three-img-div {
     img {
-      width: 30vw;
+      max-width: 400px;
       border-radius: 20px;
-      margin: 0rem 2rem;
+      margin: 2rem;
     }
   }
 
@@ -120,12 +118,8 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 80vh;
-    margin: 0rem 2rem;
-
-    .home-section-three-p-div {
-      width: 35vw;
-    }
+    margin: 2rem 0rem 0rem 2rem;
+    max-width: 500px;
 
     h3 {
       font-size: 2rem;
@@ -136,15 +130,12 @@
       font-size: 1.2rem;
     }
   }
-
-  .home-section-three-card-div {
-    height: 60vh;
-  }
 }
 
 .home-section-four {
   background-color: $themeWhite;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
@@ -168,7 +159,7 @@
   }
 
   .home-section-four-word-div {
-    width: 30vw;
+    max-width: 30vw;
 
     h3 {
       font-size: 2rem;
@@ -185,11 +176,12 @@
 .home-section-five {
   background-color: $themeColor;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
   .home-section-five-word-div {
-    width: 26vw;
+    max-width: 26vw;
 
     h3 {
       font-size: 2rem;
@@ -247,6 +239,9 @@
 
   .home-section-six-card-div {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 3rem;
   }
 }
@@ -273,11 +268,138 @@
   }
 
   .home-section-seven-card-div {
-    width: 90vw;
+    max-width: 90vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin-bottom: 2rem;
+  }
+}
+
+@media screen and(max-width:850px) {
+  .home-section-one {
+    height: 42vh;
+    #homeimg-one {
+      height: 42vh;
+    }
+
+    div.home-section-one-p-div {
+      top: 14vh;
+
+      h2 {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .home-section-two {
+    .home-section-two-font-div {
+      margin-bottom: 0rem;
+    }
+  }
+
+  .home-section-three {
+    div.home-section-three-img-div {
+      display: none;
+    }
+  }
+
+  .home-section-four {
+    .Homeimg9 {
+      max-width: 250px;
+    }
+
+    .Homeimg10,
+    .Homeimg11 {
+      max-width: 90px;
+    }
+  }
+
+  .home-section-five {
+    .homeimg12 {
+      max-width: 350px;
+    }
+    .homeimg13 {
+      display: none;
+    }
+  }
+}
+
+@media screen and(max-width:767px) {
+  .home-section-one {
+    height: 70vh;
+    #homeimg-one {
+      height: 70vh;
+    }
+
+    div.home-section-one-p-div {
+      top: 30vh;
+    }
+  }
+
+  .home-section-three {
+    .home-section-three-word-div {
+      img {
+        max-width: 70px;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+      .home-section-three-card-p-div {
+        p {
+          font-size: 0.9rem;
+        }
+      }
+    }
+  }
+  //
+  .home-section-four {
+    .Homeimg9 {
+      display: none;
+    }
+
+    .Homeimg10,
+    .Homeimg11 {
+      max-width: 200px;
+      margin-right: 2rem;
+    }
+
+    .home-section-four-img-div {
+      .home-section-four-img-two {
+        flex-direction: row;
+      }
+    }
+
+    .home-section-four-word-div {
+      max-width: 80vw;
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .home-section-five {
+    .home-section-five-word-div {
+      max-width: 80vw;
+
+      h3 {
+        margin-top: 0.5rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+      }
+    }
+
+    .homeimg12 {
+      max-width: 300px;
+    }
+
+    .home-section-five-img-div {
+      margin: 0rem 0rem 0.5rem 0rem;
+    }
   }
 }

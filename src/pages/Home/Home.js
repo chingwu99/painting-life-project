@@ -1,4 +1,9 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
+
 import Homeimg1 from "../../image/homeimage/sectionone/homeimg1.png";
 import HomeSectionTwoCard from "./components/HomeSectionTwoCard";
 import homedata from "../../data/homedata";
@@ -18,11 +23,19 @@ const Home = () => {
   const { homeSectionSixCardList } = homedata;
   const { homeSectionSevenCardList } = homedata;
 
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div className="home-div">
       <section className="home-section-one">
         <img src={Homeimg1} alt="Homeimg1" id="homeimg-one" />
-        <div className="home-section-one-p-div">
+        <div
+          className="home-section-one-p-div"
+          data-aos="fade-down"
+          data-aos-duration="3000"
+        >
           <p>繪畫新體驗</p>
           <h1>
             <span>PaintingLife </span> 彩繪你的生活
@@ -54,7 +67,12 @@ const Home = () => {
 
       <section className="home-section-three">
         <div className="home-section-three-img-div">
-          <img src={Homeimg5} alt="Homeimg5" />
+          <img
+            src={Homeimg5}
+            alt="Homeimg5"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+          />
         </div>
 
         <div className="home-section-three-word-div">
@@ -79,37 +97,59 @@ const Home = () => {
       </section>
 
       <section className="home-section-four">
-        <div className="home-section-four-img-div">
+        <div
+          className="home-section-four-img-div"
+          data-aos="zoom-out-right"
+          data-aos-duration="3000"
+        >
           <div className="home-section-four-img-one">
-            <img src={Homeimg9} alt="Homeimg9" />
+            <img src={Homeimg9} alt="Homeimg9" className="Homeimg9" />
           </div>
           <div className="home-section-four-img-two">
-            <img src={Homeimg10} alt="Homeimg9" />
-            <img src={Homeimg11} alt="Homeimg9" />
+            <img src={Homeimg10} alt="Homeimg10" className="Homeimg10" />
+            <img src={Homeimg11} alt="Homeimg11" className="Homeimg11" />
           </div>
         </div>
 
         <div className="home-section-four-word-div">
-          <div className="home-section-four-p-div">
+          <div
+            className="home-section-four-p-div"
+            data-aos="zoom-out-left"
+            data-aos-duration="3000"
+          >
             <h3>舒適空間、靜心放鬆</h3>
             <p>
               我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。
             </p>
-            <p>環境介紹 </p>
+            <p>
+              <BsArrowLeft />
+              環境介紹
+            </p>
           </div>
         </div>
       </section>
 
       <section className="home-section-five">
-        <div className="home-section-five-word-div">
+        <div
+          className="home-section-five-word-div"
+          data-aos="zoom-in-right"
+          data-aos-duration="3000"
+        >
           <div className="home-section-five-p-div">
             <h3>精心設計、課程多元</h3>
-            <p>教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。</p>
-            <p>課程介紹 </p>
+            <p>教師帶領多元課程，釋放壓力，給您前所未有的繪畫全新體驗。</p>
+            <p>
+              課程介紹
+              <BsArrowRight />
+            </p>
           </div>
         </div>
 
-        <div className="home-section-five-img-div">
+        <div
+          className="home-section-five-img-div"
+          data-aos="zoom-in-left"
+          data-aos-duration="3000"
+        >
           <div className="home-section-five-img-one">
             <img src={Homeimg12} alt="Homeimg12" className="homeimg12" />
             <img src={Homeimg13} alt="Homeimg13" className="homeimg13" />

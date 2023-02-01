@@ -1,0 +1,117 @@
+.classroom-section-one {
+  background-color: $themeWhite;
+  display: flex;
+  justify-content: center;
+
+  img {
+    border-radius: 20px;
+  }
+
+  .classroomimage1 {
+    max-width: 720px;
+  }
+
+  .classroom-section-one-div {
+    max-width: 90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+    .classroom-section-one-img-div {
+      display: flex;
+      flex-direction: column;
+
+      .classroom-section-one-img-div-inner-two {
+        div {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+      }
+    }
+
+    .classroom-section-one-word-div {
+      display: flex;
+      justify-content: center;
+
+      .classroom-section-one-word-div-card {
+        background-color: $themeColor;
+        max-width: 21vw;
+        max-height: 44vh;
+        font-size: 1.1rem;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p {
+          margin: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+.classroom-section-two {
+  background-color: $themeColor;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .classroom-section-two-div {
+    .classroom-section-two-div-titlediv {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 15vh;
+      p {
+        font-size: 2rem;
+        color: $themeOrange;
+        margin-bottom: 1rem;
+      }
+    }
+    .classroom-section-two-div-imgdiv {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media screen and(max-width:850px) {
+  .classroom-section-one {
+    .classroomimage1 {
+      max-width: 600px;
+    }
+
+    .classroom-section-one-div {
+      .classroom-section-one-word-div {
+        .classroom-section-one-word-div-card {
+          max-width: 40vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:767px) {
+  .classroom-section-one {
+    .classroomimage1 {
+      max-width: 350px;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .classroom-section-one-div {
+      .classroom-section-one-word-div {
+        .classroom-section-one-word-div-card {
+          max-width: 65vw;
+        }
+      }
+    }
+  }
+}

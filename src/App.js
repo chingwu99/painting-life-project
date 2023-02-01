@@ -5,7 +5,6 @@ import Layout from "./Layout";
 import Home from "./pages/Home/Home";
 import Class from "./pages/class/Class";
 import Classroom from "./pages/classroom/Classroom";
-import Curriculum from "./pages/curriculum/Curriculum";
 
 const App = () => {
   return (
@@ -15,7 +14,6 @@ const App = () => {
           <Route index element={<Home />}></Route>
           <Route path="class" element={<Class />}></Route>
           <Route path="classroom" element={<Classroom />}></Route>
-          <Route path="curriculum" element={<Curriculum />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -31,7 +31,6 @@ footer {
 
   div.footer-section-div-one {
     height: 12vh;
-
     p {
       font-size: 2rem;
     }
@@ -51,7 +50,7 @@ footer {
 
     button {
       height: 5vh;
-      width: 5vw;
+      max-width: 10vw;
       font-size: 1.1rem;
       border-radius: 0px 5px 5px 0px;
       cursor: pointer;
@@ -63,6 +62,9 @@ footer {
     height: 24vh;
 
     div.footer-nav {
+      .footer-section-div-two-coperight {
+        display: none;
+      }
       ul {
         height: 15vh;
         display: flex;
@@ -102,6 +104,77 @@ footer {
         .footer-social-icon {
           margin: 0px 5px;
           cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:850px) {
+  footer {
+    div.footer-section-div-one {
+      height: 10vh;
+
+      input,
+      button {
+        font-size: 0.7rem;
+      }
+
+      input {
+        padding-left: 5px;
+      }
+    }
+    div.footer-section-div-two {
+      height: 20vh;
+    }
+  }
+}
+
+@media screen and(max-width:767px) {
+  footer {
+    div.footer-section-div-one {
+      height: 20vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        font-size: 1.4rem;
+      }
+
+      input {
+        padding-left: 0px;
+        width: 30vw;
+        margin: 1rem 0rem;
+      }
+    }
+    div.footer-section-div-two {
+      height: 40vh;
+      div.footer-nav {
+        .footer-section-div-two-coperight {
+          display: block;
+          p {
+            font-size: 1rem;
+          }
+        }
+        ul {
+          height: 30vh;
+
+          li {
+            p {
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+
+      div.footer-coperight {
+        display: none;
+      }
+
+      div.footer-social {
+        div {
+          height: 30vh;
         }
       }
     }

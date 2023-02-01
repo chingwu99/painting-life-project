@@ -13,3 +13,9 @@
     color: $themeOrange;
   }
 }
+
+@media screen and(max-width:850px) {
+  .social-logo-div {
+    display: none;
+  }
+}

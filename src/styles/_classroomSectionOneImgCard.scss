@@ -1,0 +1,33 @@
+.classroom-section-one-imgcard {
+  margin: 0.5rem;
+  img {
+    max-width: 330px;
+  }
+
+  .classroom-section-one-imgcard-p-div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    right: 300px;
+    background-color: khaki;
+    height: 10vh;
+    p {
+      background-color: cadetblue;
+      height: 3vh;
+    }
+  }
+}
+
+@media screen and(max-width:850px) {
+  .classroom-section-one-imgcard {
+    img {
+      max-width: 270px;
+    }
+
+    .classroom-section-one-imgcard-p-div {
+      top: 170px;
+      right: 250px;
+    }
+  }
+}

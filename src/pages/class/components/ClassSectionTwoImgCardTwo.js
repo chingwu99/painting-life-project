@@ -1,9 +1,20 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const ClassSectionTwoImgCardTwo = ({ image1, image2 }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div className="class-section-two-img-card ">
-      <div className="class-section-two-img-div-two">
+      <div
+        className="class-section-two-img-div-two"
+        data-aos="flip-up"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+      >
         <div>
           <img src={image2} alt="" className="class-section-two-img2" />
         </div>
@@ -14,7 +25,12 @@ const ClassSectionTwoImgCardTwo = ({ image1, image2 }) => {
         </div>
       </div>
 
-      <div className="class-section-two-img-div-one">
+      <div
+        className="class-section-two-img-div-one"
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000"
+      >
         <div>
           <img src={image1} alt="" className="class-section-two-img1" />
         </div>

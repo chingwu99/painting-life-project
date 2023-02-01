@@ -1,39 +1,40 @@
 .class-section-two-img-card {
-  //background-color: aquamarine;
   display: flex;
-  height: 25vh;
+  // height: 27vh;
+
+  // background-color: brown;
 
   img {
     border-radius: 10px;
   }
 
   .class-section-two-img-div-one {
-    //background-color: forestgreen;
-    width: 15vw;
-    height: 15vh;
-    margin: 0.5rem;
-
+    // background-color: yellowgreen;
+    margin: 10px;
+    height: 26vh;
     .class-section-two-img1 {
-      position: absolute;
-      width: 15vw;
+      max-width: 250px;
     }
     .class-section-two-time-one {
       position: relative;
       background-color: $themeOrange;
-      width: 5vw;
+      max-width: 80px;
+      height: 30px;
       border-radius: 10px;
-      top: -10px;
+      top: -230px;
       left: 20px;
       text-align: center;
       color: $themeWhite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .class-section-two-p-div-one {
       position: relative;
-      //background-color: brown;
-      width: 10vw;
       border-radius: 10px;
       background-color: rgb(243, 230, 206, 0.5);
+      top: -130px;
 
       h5 {
         font-size: 2rem;
@@ -42,35 +43,103 @@
   }
 
   .class-section-two-img-div-two {
-    //background-color: blueviolet;
-    width: 30vw;
-    height: 15vh;
-    margin: 0.5rem;
-
+    margin: 10px;
+    // background-color: blueviolet;
+    height: 26vh;
     .class-section-two-img2 {
-      position: absolute;
-      width: 30vw;
+      max-width: 500px;
     }
 
     .class-section-two-time-two {
       position: relative;
       background-color: $themeOrange;
-      width: 5vw;
+      max-width: 80px;
+      height: 30px;
       border-radius: 10px;
-      top: -10px;
+      top: -230px;
       left: 20px;
       text-align: center;
       color: $themeWhite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .class-section-two-p-div-two {
       position: relative;
-      background-color: rgb(243, 230, 206, 0.5);
-      width: 10vw;
       border-radius: 10px;
+      background-color: rgb(243, 230, 206, 0.5);
+      top: -130px;
 
       h5 {
         font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:850px) {
+  .class-section-two-img-card {
+    // background-color: brown;
+    // height: 30vh;
+    .class-section-two-img-div-one {
+      // background-color: aqua;
+      height: 16vh;
+      .class-section-two-img1 {
+        max-width: 200px;
+      }
+
+      .class-section-two-time-one {
+        top: -190px;
+      }
+    }
+
+    .class-section-two-img-div-two {
+      // background-color: yellowgreen;
+      height: 16vh;
+      .class-section-two-img2 {
+        max-width: 400px;
+      }
+
+      .class-section-two-time-two {
+        top: -190px;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:767px) {
+  .class-section-two-img-card {
+    // background-color: aqua;
+    // height: 67vh;
+    max-width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .class-section-two-img-div-one {
+      height: 35vh;
+      // background-color: blueviolet;
+      .class-section-two-img1 {
+        max-width: 400px;
+      }
+
+      .class-section-two-time-one {
+        top: -270px;
+      }
+    }
+
+    .class-section-two-img-div-two {
+      height: 35vh;
+      // background-color: aquamarine;
+      .class-section-two-img2 {
+        max-width: 300px;
+        height: 250px;
+        object-fit: cover;
+      }
+
+      .class-section-two-time-two {
+        top: -270px;
       }
     }
   }

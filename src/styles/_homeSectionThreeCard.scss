@@ -3,30 +3,23 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 35vw;
   height: 15vh;
   border-radius: 20px;
   margin: 1rem 0rem;
 
   img {
-    width: 5vw;
+    max-width: 100px;
     border-radius: 50%;
     margin: 0rem 2rem;
   }
 
   .home-section-three-card-p-div {
-    width: 30vw;
-
     h4 {
       font-size: 1.5rem;
     }
 
-    p {
-      width: 25vw;
-    }
-
     .home-section-three-card-experience {
-      display: none;
+      color: $themeWhite;
     }
   }
 
@@ -34,9 +27,30 @@
     position: relative;
     right: 150px;
     height: 20vh;
+    padding: 50px 0px 50px 0px;
 
     .home-section-three-card-experience {
-      display: block;
+      color: black;
+    }
+  }
+}
+
+@media screen and(max-width:850px) {
+  .home-section-three-card {
+    .home-section-three-card-p-div {
+      .home-section-three-card-experience {
+        color: black;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:767px) {
+  .home-section-three-card {
+    .home-section-three-card-p-div {
+      h4 {
+        font-size: 1.5rem;
+      }
     }
   }
 }

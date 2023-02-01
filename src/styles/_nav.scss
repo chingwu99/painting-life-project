@@ -1,4 +1,5 @@
 nav {
+  overflow: hidden;
   background-color: $themeColor;
   display: flex;
   justify-content: space-around;
@@ -51,6 +52,31 @@ nav {
         background-color: $themeOrange;
         color: $themeWhite;
       }
+    }
+  }
+
+  .BiAlignRight-div {
+    display: none;
+  }
+}
+
+@media screen and(max-width:850px) {
+  nav {
+    .nav-ul-div {
+      display: none;
+    }
+
+    .nav-button-div {
+      display: none;
+    }
+
+    .BiAlignRight-div {
+      display: block;
+      font-size: 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(0, 0, 0, 0.5);
     }
   }
 }

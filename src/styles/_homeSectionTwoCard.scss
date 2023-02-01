@@ -1,22 +1,51 @@
 .home-section-two-card-img-div {
-  height: 50vh;
-  width: 23vw;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0.5rem;
+  margin: 1.5rem;
 
   .home-section-two-card-img {
-    width: 23vw;
     border-radius: 20px;
     position: absolute;
+    max-width: 300px;
   }
 
   div {
     margin-top: 20rem;
     position: relative;
     color: $themeColor;
+  }
+}
+
+@media screen and(max-width:850px) {
+  .home-section-two-card-img-div {
+    max-width: 200px;
+    margin-top: 4rem;
+    .home-section-two-card-img {
+      max-width: 200px;
+    }
+
+    div {
+      margin-top: 10rem;
+      position: relative;
+      color: $themeColor;
+    }
+  }
+}
+
+@media screen and(max-width:767px) {
+  .home-section-two-card-img-div {
+    max-width: 230px;
+    margin-top: 4rem;
+    .home-section-two-card-img {
+      max-width: 230px;
+    }
+
+    div {
+      margin-top: 10rem;
+      position: relative;
+      color: $themeColor;
+    }
   }
 }

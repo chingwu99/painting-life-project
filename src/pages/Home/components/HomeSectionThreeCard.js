@@ -1,8 +1,18 @@
 import React from "react";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const HomeSectionThreeCard = ({ image, word, teacher, experience }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
-    <div className="home-section-three-card">
+    <div
+      className="home-section-three-card"
+      data-aos="fade-left"
+      data-aos-duration="3000"
+    >
       <div>
         <img src={image} alt="" />
       </div>
