@@ -19,10 +19,14 @@ img {
   height: auto;
 }
 
+.layout {
+  overflow: hidden;
+}
+
 .social-logo-div {
   font-size: 3rem;
   position: fixed;
-  z-index: 5;
+  z-index: 10;
   right: 30px;
   display: flex;
   flex-direction: column;
@@ -45,7 +49,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 5;
@@ -201,7 +204,7 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
     height: 10vh;
   }
   footer div.footer-section-div-one input,
-footer div.footer-section-div-one button {
+  footer div.footer-section-div-one button {
     font-size: 0.7rem;
   }
   footer div.footer-section-div-one input {
@@ -510,7 +513,7 @@ footer div.footer-section-div-one button {
     max-width: 250px;
   }
   .home-section-four .Homeimg10,
-.home-section-four .Homeimg11 {
+  .home-section-four .Homeimg11 {
     max-width: 90px;
   }
   .home-section-five .homeimg12 {
@@ -543,7 +546,7 @@ footer div.footer-section-div-one button {
     display: none;
   }
   .home-section-four .Homeimg10,
-.home-section-four .Homeimg11 {
+  .home-section-four .Homeimg11 {
     max-width: 200px;
     margin-right: 2rem;
   }

@@ -1,7 +1,10 @@
+.layout {
+  overflow: hidden;
+}
 .social-logo-div {
   font-size: 3rem;
   position: fixed;
-  z-index: 5;
+  z-index: 10;
   right: 30px;
   display: flex;
   flex-direction: column;
@@ -14,7 +17,7 @@
   }
 }
 
-@media screen and(max-width:850px) {
+@media screen and (max-width: 850px) {
   .social-logo-div {
     display: none;
   }
