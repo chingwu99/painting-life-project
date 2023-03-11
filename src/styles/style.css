@@ -1204,14 +1204,11 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   display: flex;
   flex-direction: column;
   position: relative;
-  top: 200px;
+  top: 230px;
   right: 300px;
-  background-color: khaki;
-  height: 10vh;
-}
-.classroom-section-one-imgcard .classroom-section-one-imgcard-p-div p {
-  background-color: cadetblue;
-  height: 3vh;
+  height: 50px;
+  background-color: rgba(240, 230, 140, 0.8);
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 850px) {

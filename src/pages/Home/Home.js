@@ -1,21 +1,20 @@
-import React from "react";
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { BsArrowRight, BsArrowLeft } from "react-icons/bs";
-
-import Homeimg1 from "../../image/homeimage/sectionone/homeimg1.png";
 import HomeSectionTwoCard from "./components/HomeSectionTwoCard";
-import homedata from "../../data/homedata";
-import Homeimg5 from "../../image/homeimage/sectionthree/homeimg5.png";
 import HomeSectionThreeCard from "./components/HomeSectionThreeCard";
+import HomeSectionSixCard from "./components/HomeSectionSixCard";
+import HomeSectionSevenCard from "./components/HomeSectionSevenCard";
+import homedata from "../../data/homedata";
+import Homeimg1 from "../../image/homeimage/sectionone/homeimg1.png";
+import Homeimg5 from "../../image/homeimage/sectionthree/homeimg5.png";
 import Homeimg9 from "../../image/homeimage/sectionfour/homeimg9.png";
 import Homeimg10 from "../../image/homeimage/sectionfour/homeimg10.png";
 import Homeimg11 from "../../image/homeimage/sectionfour/homeimg11.png";
 import Homeimg12 from "../../image/homeimage/sectionfive/homeimg12.png";
 import Homeimg13 from "../../image/homeimage/sectionfive/homeimg13.png";
-import HomeSectionSixCard from "./components/HomeSectionSixCard";
-import HomeSectionSevenCard from "./components/HomeSectionSevenCard";
 
 const Home = () => {
   const { homeSectionTwoCardList } = homedata;
@@ -38,7 +37,9 @@ const Home = () => {
         >
           <p>繪畫新體驗</p>
           <h1>
-            <span>PaintingLife </span> 彩繪你的生活
+            <span>PaintingLife </span>
+            <br />
+            彩繪你的生活
           </h1>
           <h2>留一點時間幫生活填色，享受人生更多色彩！</h2>
           <div>
@@ -121,10 +122,12 @@ const Home = () => {
             <p>
               我們都渴望平靜安穩的生活，擁有一處能夠靜心的角落，安撫每天繁雜忙碌的心。
             </p>
-            <p>
-              <BsArrowLeft />
-              環境介紹
-            </p>
+            <Link to="/classroom">
+              <p>
+                <BsArrowLeft />
+                環境介紹
+              </p>
+            </Link>
           </div>
         </div>
       </section>
@@ -138,10 +141,12 @@ const Home = () => {
           <div className="home-section-five-p-div">
             <h3>精心設計、課程多元</h3>
             <p>教師帶領多元課程，釋放壓力，給您前所未有的繪畫全新體驗。</p>
-            <p>
-              課程介紹
-              <BsArrowRight />
-            </p>
+            <Link to="/class">
+              <p>
+                課程介紹
+                <BsArrowRight />
+              </p>
+            </Link>
           </div>
         </div>
 

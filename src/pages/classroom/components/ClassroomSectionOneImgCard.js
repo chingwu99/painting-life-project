@@ -1,5 +1,3 @@
-import React from "react";
-
 const ClassroomSectionOneImgCard = ({ image, name, teacher }) => {
   return (
     <div className="classroom-section-one-imgcard">

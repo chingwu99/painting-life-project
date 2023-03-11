@@ -1,4 +1,3 @@
-import React from "react";
 import Classroomimage1 from "../../image/classroomimage/classroomimage1.png";
 import classroomdata from "../../data/classroomdata";
 import ClassroomSectionOneImgCard from "./components/ClassroomSectionOneImgCard";

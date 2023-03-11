@@ -1,10 +1,11 @@
-import React from "react";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
-import Classimg1 from "../../image/classimage/classimg1.png";
 import ClassSectionTwoImgCard from "./components/ClassSectionTwoImgCard";
+import ClassSectionTwoImgCardTwo from "./components/ClassSectionTwoImgCardTwo";
+import TeacherCard from "./components/TeacherCard";
+import teacherdata from "../../data/classdata";
+import Classimg1 from "../../image/classimage/classimg1.png";
 import Classimg2 from "../../image/classimage/sectiontwo/classimg2.png";
 import Classimg3 from "../../image/classimage/sectiontwo/classimg3.png";
 import Classimg4 from "../../image/classimage/sectiontwo/classimg4.png";
@@ -13,9 +14,6 @@ import Classimg6 from "../../image/classimage/sectiontwo/classimg6.png";
 import Classimg7 from "../../image/classimage/sectiontwo/classimg7.png";
 import Classimg8 from "../../image/classimage/sectiontwo/classimg8.png";
 import Classimg9 from "../../image/classimage/sectiontwo/classimg9.png";
-import ClassSectionTwoImgCardTwo from "./components/ClassSectionTwoImgCardTwo";
-import TeacherCard from "./components/TeacherCard";
-import teacherdata from "../../data/classdata";
 
 const Class = () => {
   const { teacherList } = teacherdata;
@@ -64,7 +62,7 @@ const Class = () => {
       <section className="class-section-two">
         <div className="class-section-two-select-div">
           <div>
-            <input type="text" placeholder="請輸入要搜尋的課程" />
+            <input type="text" placeholder="搜尋課程" />
             <button>搜尋</button>
 
             <label htmlFor="class-select"></label>
@@ -94,7 +92,7 @@ const Class = () => {
               />
             </div>
             <div className="class-section-two-main-div-box-word-div">
-              <h4>PaintingLife 上課須知：</h4>
+              <h3>PaintingLife 上課須知：</h3>
               <p>
                 本課程為配合老師時間，無法提供錄影及補課服務，
                 請準時參與課程已達到最佳學習效果，同時保障自身權益。

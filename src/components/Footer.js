@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLine } from "react-icons/fa";
@@ -14,7 +13,7 @@ const Footer = () => {
           </div>
           <div>
             <div>
-              <input type="text" placeholder="輸入您的電子信箱" />
+              <input type="text" placeholder="輸入您的信箱" />
               <button>訂閱</button>
             </div>
           </div>

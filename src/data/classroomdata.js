@@ -11,26 +11,26 @@ const classroomdata = {
   imgList: [
     {
       image: Classroomimage2,
-      name: "best",
-      teacher: "jenny",
+      name: "油畫",
+      teacher: "Yuki",
     },
     {
       image: Classroomimage3,
-      name: "best",
-      teacher: "henry",
+      name: "色筆",
+      teacher: "Alex",
     },
   ],
 
   imgTwoList: [
     {
       image: Classroomimage4,
-      name: "best",
-      teacher: "addi",
+      name: "水彩",
+      teacher: "Alex",
     },
     {
       image: Classroomimage5,
-      name: "best",
-      teacher: "yuki",
+      name: "素描",
+      teacher: "Love",
     },
   ],
 

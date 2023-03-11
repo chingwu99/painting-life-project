@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLine } from "react-icons/fa";
