@@ -3,16 +3,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem;
+  margin: 0px 10px;
+  height: 450px;
+  width: 300px;
 
   .home-section-two-card-img {
     border-radius: 20px;
     position: absolute;
-    max-width: 300px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
   }
 
   div {
-    margin-top: 20rem;
+    margin-top: 300px;
     position: relative;
     color: $themeColor;
   }
@@ -20,32 +24,16 @@
 
 @media screen and (max-width: 850px) {
   .home-section-two-card-img-div {
-    max-width: 200px;
-    margin-top: 4rem;
+    margin-top: 15px;
+    height: 315px;
+    width: 210px;
+    font-size: 0.7rem;
     .home-section-two-card-img {
-      max-width: 200px;
+      height: 315px;
     }
 
     div {
-      margin-top: 10rem;
-      position: relative;
-      color: $themeColor;
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .home-section-two-card-img-div {
-    max-width: 230px;
-    margin-top: 4rem;
-    .home-section-two-card-img {
-      max-width: 230px;
-    }
-
-    div {
-      margin-top: 10rem;
-      position: relative;
-      color: $themeColor;
+      margin-top: 200px;
     }
   }
 }

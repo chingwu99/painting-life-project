@@ -1,6 +1,6 @@
 .home-section-seven-card {
   background-color: $themeWhite;
-  height: 12vh;
+  height: 120px;
   margin: 0.5rem;
   padding: 0rem 2rem;
   display: flex;
@@ -27,8 +27,6 @@
 
 @media screen and (max-width: 767px) {
   .home-section-seven-card {
-    height: 15vh;
-
     .home-section-seven-card-p-div {
       p {
         font-size: 0.9rem;

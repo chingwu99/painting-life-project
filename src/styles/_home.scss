@@ -1,16 +1,17 @@
 .home-section-one {
-  height: 75vh;
+  height: 600px;
 
   #homeimg-one {
     width: 100%;
     object-fit: cover;
-    height: 75vh;
+    height: 600px;
     position: absolute;
   }
 
   div.home-section-one-p-div {
     position: relative;
-    top: 30vh;
+    top: 250px;
+    left: 10vw;
     left: 10vw;
     max-width: 70vw;
 
@@ -36,7 +37,7 @@
       align-items: center;
 
       button {
-        height: 5vh;
+        height: 40px;
         font-size: 1.1rem;
         border: 0;
         margin: 1rem;
@@ -77,7 +78,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0rem;
+    margin: 30px 0px;
 
     h3 {
       font-size: 2rem;
@@ -94,7 +95,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 0rem 0rem 3rem 0rem;
+    margin: 0px 0px 50px 0px;
   }
 }
 
@@ -109,7 +110,7 @@
     img {
       max-width: 400px;
       border-radius: 20px;
-      margin: 2rem;
+      margin: 30px;
     }
   }
 
@@ -193,7 +194,6 @@
       margin-bottom: 2rem;
     }
   }
-
   .home-section-five-img-div {
     margin: 3rem 0rem;
   }
@@ -224,7 +224,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10vh;
     margin: 2rem 0rem 1rem 0rem;
 
     h3 {
@@ -278,27 +277,6 @@
 }
 
 @media screen and (max-width: 850px) {
-  .home-section-one {
-    height: 42vh;
-    #homeimg-one {
-      height: 42vh;
-    }
-
-    div.home-section-one-p-div {
-      top: 14vh;
-
-      h2 {
-        font-size: 1rem;
-      }
-    }
-  }
-
-  .home-section-two {
-    .home-section-two-font-div {
-      margin-bottom: 0rem;
-    }
-  }
-
   .home-section-three {
     div.home-section-three-img-div {
       display: none;
@@ -307,12 +285,12 @@
 
   .home-section-four {
     .Homeimg9 {
-      max-width: 250px;
+      width: 250px;
     }
 
     .Homeimg10,
     .Homeimg11 {
-      max-width: 90px;
+      width: 90px;
     }
   }
 
@@ -328,18 +306,16 @@
 
 @media screen and (max-width: 767px) {
   .home-section-one {
-    height: 70vh;
-    #homeimg-one {
-      height: 70vh;
-    }
-
     div.home-section-one-p-div {
-      top: 30vh;
+      h2 {
+        font-size: 1rem;
+      }
     }
   }
 
   .home-section-three {
     .home-section-three-word-div {
+      margin: 2rem 1rem 2rem 1rem;
       img {
         max-width: 70px;
       }
@@ -347,6 +323,18 @@
       p {
         font-size: 1rem;
       }
+
+      .home-section-three-p-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+          text-align: center;
+        }
+      }
+
       .home-section-three-card-p-div {
         p {
           font-size: 0.9rem;
@@ -354,21 +342,24 @@
       }
     }
   }
-  //
+
   .home-section-four {
-    .Homeimg9 {
+    .home-section-four-img-one {
       display: none;
     }
 
     .Homeimg10,
     .Homeimg11 {
-      max-width: 200px;
-      margin-right: 2rem;
+      width: 200px;
+      margin: 10px;
     }
 
     .home-section-four-img-div {
       .home-section-four-img-two {
         flex-direction: row;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
 
@@ -386,7 +377,7 @@
       max-width: 80vw;
 
       h3 {
-        margin-top: 0.5rem;
+        margin-top: 50px;
       }
 
       p {
@@ -399,7 +390,7 @@
     }
 
     .home-section-five-img-div {
-      margin: 0rem 0rem 0.5rem 0rem;
+      margin: 0px 0px 30px 0px;
     }
   }
 }
