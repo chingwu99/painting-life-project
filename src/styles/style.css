@@ -135,7 +135,7 @@ footer div.footer-section-div div {
   align-items: center;
 }
 footer div.footer-section-div-one {
-  height: 12vh;
+  height: 100px;
 }
 footer div.footer-section-div-one p {
   font-size: 2rem;
@@ -145,28 +145,28 @@ footer div.footer-section-div-one button {
   border: none;
 }
 footer div.footer-section-div-one input {
-  height: 5vh;
-  width: 12vw;
+  height: 40px;
+  width: 180px;
   padding-left: 10px;
   border-radius: 5px 0px 0px 5px;
   background-color: rgb(245, 245, 245);
 }
 footer div.footer-section-div-one button {
-  height: 5vh;
-  max-width: 10vw;
+  height: 40px;
+  width: 60px;
   font-size: 1.1rem;
   border-radius: 0px 5px 5px 0px;
   cursor: pointer;
   background-color: rgb(225, 163, 82);
 }
 footer div.footer-section-div-two {
-  height: 24vh;
+  height: 200px;
 }
 footer div.footer-section-div-two div.footer-nav .footer-section-div-two-coperight {
   display: none;
 }
 footer div.footer-section-div-two div.footer-nav ul {
-  height: 15vh;
+  height: 150px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -180,7 +180,7 @@ footer div.footer-section-div-two div.footer-coperight {
   align-items: center;
 }
 footer div.footer-section-div-two div.footer-coperight div {
-  height: 15vh;
+  height: 150px;
   display: flex;
   align-items: flex-end;
 }
@@ -192,7 +192,7 @@ footer div.footer-section-div-two div.footer-social {
 footer div.footer-section-div-two div.footer-social div {
   font-size: 1.5rem;
   align-items: flex-start;
-  height: 15vh;
+  height: 150px;
 }
 footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   margin: 0px 5px;
@@ -201,36 +201,17 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
 
 @media screen and (max-width: 850px) {
   footer div.footer-section-div-one {
-    height: 10vh;
-  }
-  footer div.footer-section-div-one input,
-  footer div.footer-section-div-one button {
-    font-size: 0.7rem;
-  }
-  footer div.footer-section-div-one input {
-    padding-left: 5px;
-  }
-  footer div.footer-section-div-two {
-    height: 20vh;
-  }
-}
-@media screen and (max-width: 767px) {
-  footer div.footer-section-div-one {
-    height: 20vh;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   footer div.footer-section-div-one p {
-    font-size: 1.4rem;
-  }
-  footer div.footer-section-div-one input {
-    padding-left: 0px;
-    width: 30vw;
-    margin: 1rem 0rem;
+    font-size: 1.3rem;
+    margin: 10px;
   }
   footer div.footer-section-div-two {
-    height: 40vh;
+    height: 300px;
   }
   footer div.footer-section-div-two div.footer-nav .footer-section-div-two-coperight {
     display: block;
@@ -239,7 +220,7 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
     font-size: 1rem;
   }
   footer div.footer-section-div-two div.footer-nav ul {
-    height: 30vh;
+    height: 200px;
   }
   footer div.footer-section-div-two div.footer-nav ul li p {
     font-size: 2rem;
@@ -248,7 +229,7 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
     display: none;
   }
   footer div.footer-section-div-two div.footer-social div {
-    height: 30vh;
+    height: 200px;
   }
 }
 .home-section-one {

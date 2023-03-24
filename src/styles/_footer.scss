@@ -30,7 +30,7 @@ footer {
   }
 
   div.footer-section-div-one {
-    height: 12vh;
+    height: 100px;
     p {
       font-size: 2rem;
     }
@@ -41,16 +41,16 @@ footer {
     }
 
     input {
-      height: 5vh;
-      width: 12vw;
+      height: 40px;
+      width: 180px;
       padding-left: 10px;
       border-radius: 5px 0px 0px 5px;
       background-color: $themeWhite;
     }
 
     button {
-      height: 5vh;
-      max-width: 10vw;
+      height: 40px;
+      width: 60px;
       font-size: 1.1rem;
       border-radius: 0px 5px 5px 0px;
       cursor: pointer;
@@ -59,14 +59,14 @@ footer {
   }
 
   div.footer-section-div-two {
-    height: 24vh;
+    height: 200px;
 
     div.footer-nav {
       .footer-section-div-two-coperight {
         display: none;
       }
       ul {
-        height: 15vh;
+        height: 150px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -85,7 +85,7 @@ footer {
       align-items: center;
 
       div {
-        height: 15vh;
+        height: 150px;
         display: flex;
         align-items: flex-end;
       }
@@ -99,7 +99,7 @@ footer {
       div {
         font-size: 1.5rem;
         align-items: flex-start;
-        height: 15vh;
+        height: 150px;
 
         .footer-social-icon {
           margin: 0px 5px;
@@ -113,43 +113,18 @@ footer {
 @media screen and (max-width: 850px) {
   footer {
     div.footer-section-div-one {
-      height: 10vh;
-
-      input,
-      button {
-        font-size: 0.7rem;
-      }
-
-      input {
-        padding-left: 5px;
-      }
-    }
-    div.footer-section-div-two {
-      height: 20vh;
-    }
-  }
-}
-
-@media screen and (max-width: 767px) {
-  footer {
-    div.footer-section-div-one {
-      height: 20vh;
+      height: 150px;
       display: flex;
       flex-direction: column;
       justify-content: center;
 
       p {
-        font-size: 1.4rem;
-      }
-
-      input {
-        padding-left: 0px;
-        width: 30vw;
-        margin: 1rem 0rem;
+        font-size: 1.3rem;
+        margin: 10px;
       }
     }
     div.footer-section-div-two {
-      height: 40vh;
+      height: 300px;
       div.footer-nav {
         .footer-section-div-two-coperight {
           display: block;
@@ -158,7 +133,7 @@ footer {
           }
         }
         ul {
-          height: 30vh;
+          height: 200px;
 
           li {
             p {
@@ -174,7 +149,7 @@ footer {
 
       div.footer-social {
         div {
-          height: 30vh;
+          height: 200px;
         }
       }
     }
