@@ -887,10 +887,7 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   align-items: center;
 }
 
-@media screen and (max-width: 767px) {
-  .class-section-one .class-section-one-limited-div div img {
-    max-width: 320px;
-  }
+@media screen and (max-width: 850px) {
   .class-section-two .class-section-two-select-div {
     justify-content: center;
   }
@@ -900,6 +897,11 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   .class-section-two .class-section-two-main-div .class-section-two-main-div-box .class-section-two-main-div-box-word-div {
     margin-top: 50px;
     width: 300px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .class-section-one .class-section-one-limited-div div img {
+    max-width: 320px;
   }
 }
 .class-section-two-img-card {
@@ -969,7 +971,7 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   font-size: 2rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 850px) {
   .class-section-two-img-card {
     display: flex;
     justify-content: center;
