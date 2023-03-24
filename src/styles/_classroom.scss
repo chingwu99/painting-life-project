@@ -38,8 +38,8 @@
 
       .classroom-section-one-word-div-card {
         background-color: $themeColor;
-        max-width: 21vw;
-        max-height: 44vh;
+        max-width: 250px;
+        height: 360px;
         font-size: 1.1rem;
         border-radius: 20px;
         display: flex;
@@ -66,11 +66,10 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 15vh;
+      margin: 20px 0px;
       p {
         font-size: 2rem;
         color: $themeOrange;
-        margin-bottom: 1rem;
       }
     }
     .classroom-section-two-div-imgdiv {
@@ -91,7 +90,7 @@
     .classroom-section-one-div {
       .classroom-section-one-word-div {
         .classroom-section-one-word-div-card {
-          max-width: 40vw;
+          max-width: 300px;
         }
       }
     }
@@ -101,17 +100,7 @@
 @media screen and (max-width: 767px) {
   .classroom-section-one {
     .classroomimage1 {
-      max-width: 350px;
-      height: 350px;
-      object-fit: cover;
-    }
-
-    .classroom-section-one-div {
-      .classroom-section-one-word-div {
-        .classroom-section-one-word-div-card {
-          max-width: 65vw;
-        }
-      }
+      display: none;
     }
   }
 }

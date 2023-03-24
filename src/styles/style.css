@@ -1077,8 +1077,8 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
 }
 .classroom-section-one .classroom-section-one-div .classroom-section-one-word-div .classroom-section-one-word-div-card {
   background-color: rgb(243, 230, 206);
-  max-width: 21vw;
-  max-height: 44vh;
+  max-width: 250px;
+  height: 360px;
   font-size: 1.1rem;
   border-radius: 20px;
   display: flex;
@@ -1099,12 +1099,11 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
+  margin: 20px 0px;
 }
 .classroom-section-two .classroom-section-two-div .classroom-section-two-div-titlediv p {
   font-size: 2rem;
   color: rgb(184, 113, 51);
-  margin-bottom: 1rem;
 }
 .classroom-section-two .classroom-section-two-div .classroom-section-two-div-imgdiv {
   display: flex;
@@ -1118,18 +1117,12 @@ footer div.footer-section-div-two div.footer-social div .footer-social-icon {
     max-width: 600px;
   }
   .classroom-section-one .classroom-section-one-div .classroom-section-one-word-div .classroom-section-one-word-div-card {
-    max-width: 40vw;
+    max-width: 300px;
   }
 }
 @media screen and (max-width: 767px) {
   .classroom-section-one .classroomimage1 {
-    max-width: 350px;
-    height: 350px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .classroom-section-one .classroom-section-one-div .classroom-section-one-word-div .classroom-section-one-word-div-card {
-    max-width: 65vw;
+    display: none;
   }
 }
 .classroom-section-one-imgcard {
