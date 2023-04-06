@@ -21,6 +21,11 @@ const Class = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="class-div">
       <section className="class-section-one">

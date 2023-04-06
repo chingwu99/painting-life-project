@@ -20,7 +20,7 @@ const ClassSectionTwoImgCardTwo = ({ image1, image2 }) => {
         <div className="class-section-two-time-two">60min</div>
         <div className="class-section-two-p-div-two">
           <h5>基礎</h5>
-          <p>艾揚格</p>
+          <p>ALEX</p>
         </div>
       </div>
 
@@ -35,8 +35,8 @@ const ClassSectionTwoImgCardTwo = ({ image1, image2 }) => {
         </div>
         <div className="class-section-two-time-one">60min</div>
         <div className="class-section-two-p-div-one">
-          <h5>基礎</h5>
-          <p>艾揚格</p>
+          <h5>進階</h5>
+          <p>LOVE</p>
         </div>
       </div>
     </div>

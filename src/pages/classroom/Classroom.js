@@ -2,10 +2,15 @@ import Classroomimage1 from "../../image/classroomimage/classroomimage1.png";
 import classroomdata from "../../data/classroomdata";
 import ClassroomSectionOneImgCard from "./components/ClassroomSectionOneImgCard";
 import ClassroomSectionTwoImgCard from "./components/ClassroomSectionTwoImgCard";
-const classroom = () => {
+import { useEffect } from "react";
+const Classroom = () => {
   const { imgList } = classroomdata;
   const { imgTwoList } = classroomdata;
   const { imgThreeList } = classroomdata;
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
@@ -72,4 +77,4 @@ const classroom = () => {
   );
 };
 
-export default classroom;
+export default Classroom;

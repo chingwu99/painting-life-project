@@ -6,6 +6,7 @@ const ClassSectionTwoImgCard = ({ image1, image2 }) => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <div className="class-section-two-img-card ">
       <div
@@ -20,7 +21,7 @@ const ClassSectionTwoImgCard = ({ image1, image2 }) => {
         <div className="class-section-two-time-one">60min</div>
         <div className="class-section-two-p-div-one">
           <h5>基礎</h5>
-          <p>艾揚格</p>
+          <p>LOVE</p>
         </div>
       </div>
 
@@ -35,8 +36,8 @@ const ClassSectionTwoImgCard = ({ image1, image2 }) => {
         </div>
         <div className="class-section-two-time-two">60min</div>
         <div className="class-section-two-p-div-two">
-          <h5>基礎</h5>
-          <p>艾揚格</p>
+          <h5>進階</h5>
+          <p>YUKI</p>
         </div>
       </div>
     </div>

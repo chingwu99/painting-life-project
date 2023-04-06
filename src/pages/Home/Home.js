@@ -26,6 +26,10 @@ const Home = () => {
     AOS.init();
   }, []);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="home-div">
       <section className="home-section-one">

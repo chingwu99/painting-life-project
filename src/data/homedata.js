@@ -36,19 +36,19 @@ const homedata = {
   homeSectionThreeCardList: [
     {
       image: Homeimg6,
-      teacher: "Carol Tang 老師",
+      teacher: "YUKI 老師",
       word: "教學經歷 10 年",
       experience: "彩繪生活讓我對繪畫有了全新的體驗，對生活也有更多發現！",
     },
     {
       image: Homeimg7,
-      teacher: "Carol Tang 老師 ",
+      teacher: "ALEX 老師 ",
       word: "教學經歷 10 年",
       experience: "彩繪生活讓我對繪畫有了全新的體驗，對生活也有更多發現！",
     },
     {
       image: Homeimg8,
-      teacher: "Carol Tang 老師 ",
+      teacher: "LOVE 老師 ",
       word: "教學經歷 10 年",
       experience: "彩繪生活讓我對繪畫有了全新的體驗，對生活也有更多發現！",
     },
